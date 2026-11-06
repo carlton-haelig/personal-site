@@ -621,7 +621,7 @@ img {
 }
 
 .credentials-section {
-  padding: var(--space-6) 0 var(--space-8);
+  padding: 0 0 var(--space-8);
   border-bottom: 1px solid var(--color-border-light);
   margin-bottom: var(--space-8);
 }
@@ -758,7 +758,7 @@ img {
 
 /* Secondary Academic Nod: The Doctrine Gap */
 .monograph-editorial-nod {
-  padding: var(--space-6) 0 var(--space-8);
+  padding: 0 0 var(--space-8);
   border-bottom: 1px solid var(--color-border-light);
   margin-bottom: var(--space-8);
 }
