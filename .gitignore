@@ -1,7 +1,0 @@
-.DS_Store
-
-# Impeccable local working state, question logs, and decision mocks
-.impeccable/
-
-# Local engine binaries
-.agent/skills/impeccable/scripts/bin/
