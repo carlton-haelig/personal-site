@@ -658,6 +658,10 @@ img {
   line-height: var(--leading-snug);
 }
 
+.degree-level + .degree-level {
+  margin-top: 0.2rem;
+}
+
 .degree-school {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
