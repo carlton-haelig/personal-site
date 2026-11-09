@@ -23,6 +23,7 @@
   --color-bg: #f7f7f8;              /* Subtle Stone Page Ground */
   --color-surface: #ffffff;         /* Crisp White Container Surface */
   --color-surface-subtle: #f0f1f4;
+  --color-stone: #f0f1f4;           /* Stone Badge / Pill Tint */
   --color-surface-alt: #eceef2;
 
   --color-text: #1c2127;            /* High-Contrast Charcoal (>13:1 on white) */
@@ -493,6 +494,16 @@ img {
 .gateway-content p {
   color: var(--color-text-muted);
   margin-bottom: 0;
+}
+
+.gateway-card-spacer {
+  margin-top: var(--space-12);
+}
+
+.gateway-actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
 }
 
 /* Action Buttons */
@@ -1309,17 +1320,21 @@ a.btn-accent:hover {
     gap: var(--space-1);
   }
 
+  .pub-btn {
+    padding: 0.45rem 0.85rem;
+    min-height: 38px;
+  }
+
   .hero-name {
     font-size: var(--text-2xl);
   }
 }
 
-/* Reduced Motion Preference */
+/* Reduced Motion Preference: Suppress non-essential motion while preserving state feedback */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
